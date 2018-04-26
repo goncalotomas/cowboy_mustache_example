@@ -1,0 +1,14 @@
+{application, cowboy_mustache_example,
+ [{description, "An OTP application"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {mod, { cowboy_mustache_example_app, []}},
+  {applications,
+   [kernel, stdlib, ranch, cowlib]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, ["Goncalo Tomas"]},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
